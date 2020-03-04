@@ -1,0 +1,12 @@
+{
+  "name": "fcc-choropleth-map-proj",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "deploy": "gh-pages -d public"
+  },
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
