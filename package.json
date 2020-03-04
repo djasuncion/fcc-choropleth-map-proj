@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "deploy": "gh-pages -d public"
+    "deploy": "git push -u origin master && gh-pages -d public"
   },
   "dependencies": {
     "gh-pages": "^2.2.0"
