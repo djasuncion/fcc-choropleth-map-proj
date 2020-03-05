@@ -1,0 +1,43 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.heading {
+  text-align: center;
+}
+
+.states {
+  fill: none;
+  stroke: #fff;
+  stroke-linejoin: round;
+}
+
+.county:hover {
+  fill: #000;
+}
+
+#tooltip {
+  position: absolute;
+  padding: 1.25rem;
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 10px;
+}
+
+h2 {
+  font-size: 0.8rem;
+  font-weight: lighter;
+}
